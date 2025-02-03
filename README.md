@@ -1,2 +1,2 @@
 # AI-Agents
-This repository contains two AI agents- one that uses tools from Langchain and another one that uses tools that were built without any framework. It is asked to replace the keys in the .env file with real API keys.
+This repository contains two AI agents- one that uses tools from Langchain and another one that uses tools that were built without any framework. It is asked to replace the keys in the .env file with real API keys for running the .py file.
