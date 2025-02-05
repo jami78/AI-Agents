@@ -1,4 +1,4 @@
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.tools import Tool
 from langchain.tools import WikipediaQueryRun, ArxivQueryRun
@@ -8,9 +8,8 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain.memory import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 
-#load_dotenv()
-GROQ_API_KEY= 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
-SERPER_API_KEY= e2095e5facd4b06826cd33081bb0589af8278b3f
+load_dotenv()
+
 llm = ChatGroq(model="llama3-70b-8192", api_key= GROQ_API_KEY)
 
 # Define tools
