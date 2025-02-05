@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.tools import Tool
 from langchain.tools import WikipediaQueryRun, ArxivQueryRun
