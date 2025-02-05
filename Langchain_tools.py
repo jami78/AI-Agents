@@ -8,9 +8,10 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain.memory import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 
-load_dotenv()
-
-llm = ChatGroq(model="llama3-70b-8192")
+#load_dotenv()
+GROQ_API_KEY= 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
+SERPER_API_KEY= e2095e5facd4b06826cd33081bb0589af8278b3f
+llm = ChatGroq(model="llama3-70b-8192", api_key= GROQ_API_KEY)
 
 # Define tools
 def arxiv_tool(query):
